@@ -13,7 +13,7 @@
 #Node/Express JS - Routing/templates
 #Amazon Web Services - store resource files
 #HTML/CSS - Webpages
-#JQuery
+#JQuery - slideshow on homepage
 #
 #REQUIREMENTS:
 #A place to store class materials
