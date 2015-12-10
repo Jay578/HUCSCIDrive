@@ -106,7 +106,7 @@ li a:hover:not(.active) {
 }
 .learn-more {
   background-color: #ffffff;
-  opacity: 0.8;
+  opacity: 0.9;
   filter: alpha(opacity=60);
 }
 
