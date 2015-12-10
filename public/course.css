@@ -15,8 +15,8 @@ video {
 
 li {
    display: inline;
-   border-right: 1px solid #bbb;
-   border-left: 1px solid #bbb;
+   margin: 0 100px 0 10px;
+   padding: 0;
 }
 
 li a {
@@ -31,25 +31,23 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
-li:last-child {
-    border-right: none;
-}
-
 .active {
     background-color: #4CAF50;
 } 
 
-ul {
+.nav {
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+}
+.nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    text-align: center;
     background-color: #333;
-  color: #fff;
+    color: #fff;
 }
 
 .nav a {
-  color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
   padding: 14px 10px;
