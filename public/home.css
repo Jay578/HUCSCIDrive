@@ -73,7 +73,22 @@ ul {
   font-size: 20px;
   color: #000000;
 }
+#carousel {
+    position: relative;
+    display: block;
+    width: 100%;
+    top:-20px;
+    height: 400px; 
+    margin-bottom: 10px;
+}
 
+#carousel img {
+    height: 400px;
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+    max-height: 450px;
+}
 .learn-more {
   background-color: #f7f7f7;
 }
